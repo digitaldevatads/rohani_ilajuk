@@ -1,0 +1,162 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+  .top-bar {
+	background-color: #005f2f;
+	color: white;
+	padding: 5px 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+    .top-bar .call-text {
+      color: #ffc107;
+      font-weight: bold;
+    }
+
+    .top-bar .phone-number {
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+.highlight-box {
+	background-color: yellow;
+	font-weight: bold;
+	padding: 6px 15px;
+	border-radius: 3px;
+	margin: 10px 0;
+
+}
+
+    .urdu-bar {
+      background-color: #fbb800;
+      color: black;
+      font-size: 18px;
+      padding: 8px 15px;
+      line-height: 1.6;
+    }
+
+    select.language-select {
+      margin-right: 10px;
+      padding: 5px;
+    }
+
+      /* Custom Header Styles */
+    .navbar {
+      background-color: #fff;
+      padding: 0.8rem 1rem;
+    }
+
+    .navbar-brand img {
+      height: 50px;
+    }
+
+  .navbar-nav .nav-link {
+	color: #222 !important;
+	margin-right: 15px;
+	font-weight: 500;
+}
+
+    .navbar-nav .nav-link:hover {
+      color: #ffd700 !important;
+    }
+
+    .btn-call {
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 8px 18px;
+      margin-right: 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .btn-call i {
+      margin-right: 8px;
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(to right, #1ebea5, #25d366);
+      color: white;
+      font-weight: bold;
+      border: 2px solid #0b5345;
+      border-radius: 10px;
+      padding: 8px 18px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .btn-whatsapp i {
+      margin-right: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .btn-group-header {
+        margin-top: 10px;
+      }
+    }
+
+    #three {
+	background: #2e6902;
+	color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+
+    #four{
+        text-align: center;
+        padding: 50px;
+    }
+    h2 {
+	margin: 0px 0 30px !important;
+}
+.custom-footer {
+  background-color: #004d00;
+  color: #ffffff;
+}
+
+.custom-footer .footer-link {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.custom-footer .footer-link:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+.float-btn {
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  transition: 0.3s;
+}
+
+.float-left {
+  left: 20px;
+}
+
+.float-right {
+  right: 20px;
+}
+
+.float-btn:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
